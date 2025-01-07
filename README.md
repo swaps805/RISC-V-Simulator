@@ -2,7 +2,7 @@
 
 This RISC-V Simulator supports the **RISC-V ISA 64I variant** (only base instructions) and provides an environment to load, execute, and debug RISC-V assembly programs. The simulator initializes all registers and memory to default values and provides functionalities to run code, view register states, and manage memory. It also supports Cache Simulations. The RISCV instruction manual can be found [here](./RISCV_instruction_manual.pdf)
 
-The program operates as a command-line interface (CLI) and continuously runs in an interactive loop, waiting for user commands to be entered in the terminal.
+**The program operates as a command-line interface (CLI) and continuously runs in an interactive loop, waiting for user commands to be entered in the terminal.**
 
 ## Specifications
 - All registers, instructions are 64 bit and address space is 32 bit
